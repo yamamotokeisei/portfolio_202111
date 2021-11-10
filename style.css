@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+/*ヘッド部分*/
+.header-list{
+    padding-left: 17px;
+    padding-top: 12px;
+}
+.header-list li{
+    list-style: none;
+    float: left;
+    font-size: 17px;
+    margin-right:27px;
+    border-bottom: 2px solid #6AEDC8;
+    padding-bottom: 2px;
+    color: white;
+}
+
+/*メイン部分*/
+.head{
+    background: linear-gradient(#74BDD2, #56C3BC);
+    height: 450px;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    padding: 10px;
+}
+
+.head-main{
+    padding-top: 110px;
+}   
+
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 50px;
+}
+
+.main-image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.inform{
+    text-align: center;
+    color: white;
+}
+
+.inform p{
+    font-size: 15px;
+    justify-content: center;
+}
+
+.name{
+    font-size: 30px;
+    border-bottom: 5px solid #6AEDC8;
+}
+
+/*アバウト部分*/
+.about{
+    text-align: center;
+    margin-top: 50px;
+    color: #4D4C4C;
+}
+
+.about h2{
+    font-size: 30px;
+}
+
+.tool{
+    font-size:15px
+}
+
+.tool-img{
+    margin-bottom: 30px;
+    width: 150px;
+}
+
+.text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size:15px;
+}
+
+.support{
+    font-size: 15px;
+}
+
+.platform-img{
+    margin-top: 50px;
+}
+
+/*プロジェクト部分*/
+.project{
+    background-color: #53BD9D;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    height: 850px;
+    padding: 100px 0;
+    width: 100%;
+    clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 88%);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.project-item{
+    margin: 0 100px;
+    text-align: left;
+}
+
+.website{
+    border: 2px solid white;
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.website:hover{
+    opacity: 0.7;
+}
+
+/*コンタクト部分*/
+.contact{
+    text-align: center;
+    height: 500px;
+    color: #4D4C4C;
+}
+
+.tell{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contact-items{
+    display: flex;
+    justify-content: center;
+    gap: 0 300px;
+}
+
+.contact-item{
+    background: linear-gradient(180deg,#53BD9D 0%,#53BD9D 10px,#DEDADA 10px,#DEDADA 100%);
+    width: 250px;
+    height: 180px;
+    padding-top: 30px;
+}
+
+/*フッター*/
+footer{
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F5F4F4;
+    color: #938F8F;
+}
+
+footer p{
+    padding-top: 10px;
+}
