@@ -97,7 +97,6 @@
 /*プロジェクト部分*/
 .project{
     background-color: #53BD9D;
-    margin: 0 auto;
     text-align: center;
     color: white;
     height: 850px;
@@ -112,9 +111,17 @@
     margin-top: 50px;
 }
 
+.project-img{
+    width: 300px;
+}
+
 .project-item{
     margin: 0 100px;
     text-align: left;
+}
+
+.project-item p{
+    font-size: 15px;
 }
 
 .website{
