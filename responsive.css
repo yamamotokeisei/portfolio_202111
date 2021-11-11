@@ -1,0 +1,74 @@
+/*iPad用のレスポンシブ*/
+@media(max-width:1025px){
+
+    .project-item{
+        margin: 0 40px;
+    }
+
+    .contact-items {
+        gap: 0 100px;
+    }
+
+    
+}
+
+/*iPhone用のレスポンシブ*/
+@media(max-width:812px){
+
+    .header-list{
+        padding-top:10px;
+        padding-left: 5px;
+    }
+
+    .test{
+        display:inline-block;
+        
+    }
+
+    .head{
+        height: auto;
+        text-align: center;
+    }
+
+    .project{
+        height: 1400px;
+        clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 94%);
+    }
+
+    .project-item{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .project-item p{
+        text-align: left;
+    }
+
+    .flex{
+        display: inline-block;
+    }
+
+    .project-img{
+        width: 250px;
+        text-align: center;
+    }
+
+    .contact{
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .tell{
+        margin-bottom: 10px;
+    }
+
+    .contact-items{
+        display:inline-block;
+        text-align: center;
+    }
+
+    .contact-item{
+        margin-top: 30px;
+    }
+
+}
