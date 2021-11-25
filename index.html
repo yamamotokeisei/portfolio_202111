@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -32,6 +33,13 @@
     </div>
     <!--ヘッダー＋メイン終了-->
 
+    <!--test部分をふわっと表示-->
+    <script>
+        ScrollReveal().reveal('.test',{
+            duration:2000
+        });
+    </script>
+
     <!--アバウト部分-->
     <div class="about">
         <h2>About</h2>
@@ -41,6 +49,15 @@
         <p class="support">support@techis.io</p>
         <img src="img/platform.png" alt="ロゴ" class="platform-img">
     </div>
+
+    <!--アバウト部分を下からふわっと表示-->
+    <script>
+        ScrollReveal().reveal('.about',{
+            duration:2000,
+            origin:'bottom',
+            distance:'500px'
+        });
+    </script>
 
     <!--プロジェクト部分-->
     <div class="project">
@@ -72,6 +89,15 @@
         </div>
     </div>
 
+    <!--フレックス部分をふわっと表示-->
+    <script>
+        ScrollReveal().reveal('.flex',{
+            duration:2000,
+            origin:'bottom',
+            distance:'500px'
+        });
+    </script>
+
     <!--コンタクト部分-->
     <div class="contact">
         <h2>Contact</h2>
@@ -89,6 +115,15 @@
             </div>
         </div>
     </div>
+
+    <!--contact-itemsをふわっと表示-->
+    <script>
+        ScrollReveal().reveal('.contact-items',{
+            duration:2000,
+            origin:'bottom',
+            distance:'500px'
+        });
+    </script>
 
     <!--フッター部分-->
     <footer>
